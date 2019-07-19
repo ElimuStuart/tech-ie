@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section id="story">
+    <div class="col-md-8 offset-md-2">
 
     <div class="card">
     <div class="card-body">
@@ -12,13 +12,13 @@
 
         <div class="row pb-3">
             
-                <div class="col-md-4">
-                    <img src="{{ asset('images/mice.jpeg') }}" class="rounded-circle" width="200" height="200" alt="sara">
+                <div class="col-md-4 col-sm-4">
+                    <img src="{{ asset('images/mice.jpeg') }}" class="rounded-circle" width="200" height="200"  alt="sara">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                 <img src="{{ asset('images/mice.jpg') }}" class="rounded-circle" width="200" height="200" alt="stue">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                 <img src="{{ asset('images/mice.png') }}" class="rounded-circle" width="200" height="200" alt="karane">
                 </div>
 
@@ -39,5 +39,5 @@
     
         <!-- <h2>the Three Blind Mice</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero hic iure ipsam voluptatibus quam! Recusandae, dolor repellat consectetur sit rem soluta dignissimos eius quibusdam officiis et nobis excepturi suscipit aliquid!</p> -->
-    </section>
+    </div>
 @endsection
